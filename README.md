@@ -10,4 +10,4 @@
     <li>Palatino Linotype Bold Italic</li>
 </ol>
 
-Zipped ireframe / final template in assets folder.
+Zipped wireframe / final template in assets folder.
