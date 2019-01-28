@@ -1,1 +1,207 @@
+.hidden {
+    display: none;
+}
 
+@font-face {
+    font-family: 'josefinsans-bold';
+    src: url('../fonts/josefinsans-bold-webfont.woff'),
+         url('../fonts/josefinsans-bold-webfont.woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'josefinsans-regular';
+    src: url('../fonts/josefinsans-regular-webfont.woff'),
+         url('../fonts/josefinsans-regular-webfont.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PalatinoLinotype-BoldItalic';
+    src: url('../fonts/PalatinoLinotype-BoldItalic.woff'),
+         url('../fonts/PalatinoLinotype-BoldItalic.woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    font-family: 'josefinsans-bold', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+h3 {
+    font-family: 'PalatinoLinotype-BoldItalic', Arial, sans-serif;
+}
+
+p {
+    font-family: 'josefinsans-regular', Arial, sans-serif;
+    font-size: 12px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 708px;
+    padding: 0px 30px 30px 30px;
+}
+
+#mainTitle {
+    margin: 0 auto;
+    width: 768px;
+    height: 183px;
+    background-image: url("../images/riverBg.jpg");
+    position: relative;
+}
+
+#titleBox {
+    width: 540px;
+    height: 40px;
+    background-color: black;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 30px;
+}
+
+#titleBox h2 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#contentOne {
+    width: 708px;
+    height: 510px;
+    display: flex;
+    flex-direction: row;
+}
+
+#contentOneText {
+    width: 428px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contentOneText h3 {
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+#contentOneText p {
+    padding-right: 25px;
+    font-size: 14px;
+    text-indent: 2em;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.contentImages {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.secondImage {
+    padding-top: 15px;
+}
+
+#contentTwoImage {
+    width: 708px;
+    height: 400px;
+    background-image: url(../images/forestBg.jpg);
+    position: relative;
+    margin-top: 25px;
+}
+
+#contentTwo {
+    width: 408px;
+    height: 400px;
+    background-color: #FFFFFF;
+    position: absolute;
+    margin-left: 150px;
+}
+
+#contentTwo h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#contentTwo p {
+    padding: 0px 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+#contentThree {
+    width: 708px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#contentThree h3 {
+    font-size: 24px;
+}
+
+#contentThree p {
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 1.7;
+    padding: 0px 25px;
+    
+}
+
+#troutImage {
+    margin: 0 auto;
+    width: 708px;
+    height: 200px;
+    background-image: url("../images/rainbowTroutMouth.jpg");
+    position: relative;
+}
+
+#troutText {
+    width: 240px;
+    height: 40px;
+    background-color: black;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 10px;
+}
+
+#troutText h2 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#contentFour {
+    width: 708px;
+    height: 555px;
+    display: flex;
+    flex-direction: row;
+}
+
+#contentFourText {
+    width: 428px;
+    height: 555px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contentFourText p {
+    text-indent: 2em;
+    padding: 25px 25px 0px 0px;
+    line-height: 1.6;
+}
+
+#contentFourText h3 {
+    margin-top: 30px
+}
